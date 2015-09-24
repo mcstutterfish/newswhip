@@ -593,7 +593,7 @@ class NewsWhip {
 
 			if (is_string($filterField)) {
 
-				if (!in_array($filterField, $this->_postFilterFields)) {
+				if (!array_key_exists($filterField, $this->_postFilterFields)) {
 					throw new \Exception("Invalid filter field passed ({$filterField}).");
 				}
 

@@ -1,6 +1,8 @@
 <?php
 /**
  * NewsWhip Service Configuration
+ *
+ * @author  Christopher M. Black <cblack@devonium.com>
  */
 
 return [
